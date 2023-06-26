@@ -23,18 +23,18 @@ const Sanity = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center md:items-start lg:items-start">
+        <div className="flex flex-col items-center md:items-start lg:items-start  ">
           <div className="rounded-full h-24 w-24 mb-16 ">
             <img src={sanityIcon} alt="register" className="rounded-2xl" />
           </div>
-          <ul className="space-y-6 md:list-disc lg:list-disc list-none">
+          <ul className="space-y-6 list-disc  text-left pl-10 md:pl-0 lg:pl-lg">
             <li className="max-w-[350px]">
               Flexible content management system (CMS).
             </li>
             <li className="max-w-[350px]">
               Real-time collaboration for efficient teamwork.
             </li>
-            <li className="max-w-[350px]">
+            <li className="max-w-[350px] ">
               Powerful querying capabilities for easy content retrieval and
               manipulation.
             </li>

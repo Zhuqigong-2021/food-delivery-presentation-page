@@ -23,7 +23,7 @@ const Realtime = () => {
           <div className="rounded-full mb-20 ">
             <img src={update} alt="update" className="rounded-2xl" />
           </div>
-          <ul className=" space-y-6 list-none md:list-disc lg:list-disc text-center md:text-left lg:text-left">
+          <ul className=" space-y-6 list-disc  text-left  md:text-left lg:text-left pl-10 md:pl-0 lg:pl-0">
             <li>To commit any change without refreshing the whole page</li>
             <li>Get instant updates from user interface without any delay</li>
           </ul>

@@ -25,7 +25,7 @@ const Play = () => {
           {/* <div className="rounded-full h-24 w-24 mb-16 ">
             <img src={sanityIcon} alt="register" className="rounded-2xl" />
           </div> */}
-          <ul className="space-y-6 md:list-disc lg:list-disc list-none">
+          <ul className="space-y-6 list-disc  text-left pl-10 md:pl-0 lg:pl-0">
             <li>Click the play button</li>
             <li>Download Expo-go app on your devices</li>
             <li>Scan the QR code or </li>

@@ -15,8 +15,8 @@ const Security = () => {
           <h1 className="lead font-bold text-2xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
             Apply Security rules
           </h1>
-          <ul className="text-center md:text-left lg:text-left space-y-6 list-none md:list-disc lg:list-disc">
-            <li>Allow all users to read</li>
+          <ul className="text-left md:text-left lg:text-left space-y-6 list-disc  pl-10 md:pl-0 lg:pl-0">
+            <li>Allow all users to read the data from Database</li>
             <li>Only authorized users have the write permission</li>
           </ul>
         </div>
