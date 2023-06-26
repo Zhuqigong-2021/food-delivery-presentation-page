@@ -4,7 +4,7 @@ import favourite from "../assets/favourite.jpg";
 
 const Favourite = () => {
   return (
-    <section className="flex-1 w-full flex flex-col items-center bg-white pt-10 pb-32">
+    <section className="flex-1 w-full flex flex-col items-center bg-white pt-10 pb-32 ">
       {/* <h1 className="text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl">
         Favourite
       </h1> */}
@@ -32,7 +32,7 @@ const Favourite = () => {
           <h1 className="lead font-bold text-2xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
             Favourite Dishes
           </h1>
-          <ul className="text-left space-y-6 list-disc">
+          <ul className="text-left space-y-6 list-disc pl-10 md:pl-0 lg:pl-0 ">
             <li>
               Like/unlike dishes by simply click the heart next to the dishes
               name

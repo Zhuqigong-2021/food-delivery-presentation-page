@@ -34,7 +34,7 @@ const Payment = () => {
           <h1 className="lead font-bold text-2xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
             Payment funcionality
           </h1>
-          <ul className="text-left space-y-6 list-disc">
+          <ul className="text-left space-y-6 list-disc pl-10 md:pl-0 lg:pl-0">
             <li>Use stripe test mode to implement payment function;</li>
             <li>Use Express.js to handle client requests</li>
             <li>Initialize payment sheet by using the client secret</li>

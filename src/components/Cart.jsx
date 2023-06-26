@@ -33,7 +33,7 @@ const Cart = () => {
           <h1 className="lead font-bold text-2xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
             Cart management
           </h1>
-          <ul className="text-left space-y-6 list-disc">
+          <ul className="text-left space-y-6 list-disc pl-10 md:pl-0 lg:pl-0">
             <li>
               Conditionally render the cart tab screen based on current status.
             </li>

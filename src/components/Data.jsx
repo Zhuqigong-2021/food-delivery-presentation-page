@@ -24,7 +24,7 @@ const Data = () => {
         </div>
 
         <div className="">
-          <h1 className="lead font-bold text-2xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
+          <h1 className="translate-x-0 md:-translate-x-4 lg:-translate-x-4 font-bold text-2xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
             Collections
           </h1>
           <ul className="text-center md:text-left lg:text-left space-y-6 list-none md:list-disc lg:list-disc">
