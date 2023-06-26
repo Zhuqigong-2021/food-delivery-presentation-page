@@ -9,7 +9,13 @@ import rider from "../assets/rider.jpg";
 const Procedure = () => {
   return (
     <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32">
-      <h1 className="text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl">
+      {/* <h1 className="text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl">
+        Order Procedure
+      </h1> */}
+      <h1 className="hidden md:block lg:block text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl mb-32">
+        Order Procedure
+      </h1>
+      <h1 className=" block md:hidden lg:hidden text-4xl font-bold my-10 text-center wrap  bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
         Order Procedure
       </h1>
       <p className="mt-10 mb-2 max-w-[300px] flex justify-center text-center">
