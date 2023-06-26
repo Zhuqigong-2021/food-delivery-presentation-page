@@ -5,13 +5,13 @@ import sanityIcon from "../assets/sanity.png";
 const Sanity = () => {
   return (
     <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32">
-      <h1 className="hidden md:block lg:block text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl mb-32">
+      <h1 className="hidden md:block lg:block text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl ">
         Sanity
       </h1>
-      <h1 className=" block md:hidden lg:hidden text-4xl font-bold my-10 text-center wrap  bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
+      <h1 className=" block md:hidden lg:hidden text-4xl font-bold my-10 text-center wrap  bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent ">
         Sanity
       </h1>
-      <p className="mt-10 mb-12 max-w-[400px] flex justify-center text-center">
+      <p className=" mb-16 max-w-[400px] flex justify-center text-center">
         Sanity is a clound based content mangament studio
       </p>
       {/* mt-10 md:flex-row lg:flex-row space-x-0 md:space-x-10 lg:space-x-10
