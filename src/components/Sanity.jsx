@@ -4,7 +4,7 @@ import sanityIcon from "../assets/sanity.png";
 
 const Sanity = () => {
   return (
-    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32">
+    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32 px-2 md:px-5 lg:px-5">
       <h1 className="hidden md:block lg:block text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl ">
         Sanity
       </h1>
@@ -28,9 +28,13 @@ const Sanity = () => {
             <img src={sanityIcon} alt="register" className="rounded-2xl" />
           </div>
           <ul className="space-y-6 md:list-disc lg:list-disc list-none">
-            <li>Flexible content management system (CMS).</li>
-            <li>Real-time collaboration for efficient teamwork.</li>
-            <li>
+            <li className="max-w-[350px]">
+              Flexible content management system (CMS).
+            </li>
+            <li className="max-w-[350px]">
+              Real-time collaboration for efficient teamwork.
+            </li>
+            <li className="max-w-[350px]">
               Powerful querying capabilities for easy content retrieval and
               manipulation.
             </li>

@@ -5,7 +5,7 @@ import profile from "../assets/profile.jpg";
 
 const Login = () => {
   return (
-    <section className="flex-1 w-full flex flex-col items-center bg-white pt-10 pb-32">
+    <section className="flex-1 w-full flex flex-col items-center bg-white pt-10 pb-32 px-2 md:px-5 lg:px-5">
       {/* <h1 className="text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl">
         Authentication
       </h1> */}
@@ -26,7 +26,7 @@ const Login = () => {
           <h1 className="lead font-bold text-2xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
             Sigup | login | Logout
           </h1>
-          <ul className="text-left space-y-6 list-disc">
+          <ul className="text-left space-y-6 list-disc pl-10 md:pl-0 lg:pl-0">
             <li>Authenticate user using Firebase authentication;</li>
             <li>Implement data persistence using AsyncStorage;</li>
             <li>Save user auth data using Cloud Firestore</li>

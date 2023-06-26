@@ -3,7 +3,7 @@ import order from "../assets/order.jpg";
 
 const Order = () => {
   return (
-    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32">
+    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32 px-2 md:px-5 lg:px-5">
       {/* <h1 className="text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl mb-32">
         Order Screen
       </h1> */}
@@ -19,7 +19,7 @@ const Order = () => {
           <h1 className="lead font-bold text-2xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent mb-16">
             Order management
           </h1>
-          <ul className="text-left space-y-6 list-disc">
+          <ul className="text-left space-y-6 list-disc pl-10 md:pl-0 lg:pl-0">
             <li>To trace the previous completed orders and reorder them</li>
 
             <li>Cancel current order within a time limit</li>

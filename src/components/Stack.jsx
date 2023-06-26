@@ -9,7 +9,7 @@ import express from "../assets/express.png";
 
 const Stack = () => {
   return (
-    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32">
+    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32 px-2 md:px-5 lg:px-5">
       {/* <h1 className="text-7xl font-bold my-10 text-center wrap  shadow_text">
         Stack
       </h1> */}

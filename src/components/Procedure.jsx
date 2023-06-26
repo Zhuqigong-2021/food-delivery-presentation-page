@@ -8,7 +8,7 @@ import rider from "../assets/rider.jpg";
 
 const Procedure = () => {
   return (
-    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32">
+    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32 px-2 md:px-5 lg:px-5">
       {/* <h1 className="text-4xl font-bold my-10 text-center wrap  shadow_text md:text-7xl lg:text-7xl">
         Order Procedure
       </h1> */}
