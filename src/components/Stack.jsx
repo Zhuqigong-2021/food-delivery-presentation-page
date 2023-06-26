@@ -9,10 +9,13 @@ import express from "../assets/express.png";
 
 const Stack = () => {
   return (
-    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 py-10">
+    <section className="flex-1 w-full flex flex-col items-center bg-slate-50 pt-10 pb-32">
       <h1 className="text-7xl font-bold my-10 text-center wrap  shadow_text">
         Stack
       </h1>
+      <p className="mt-10 mb-2 max-w-[300px] flex justify-center text-center">
+        Stack that we use in this react native fullstack mobile app
+      </p>
       <div className="flex gap-20 max-w-4xl flex-wrap justify-center  my-10">
         <div className="relative h-36 w-36 p-5   rounded-full bg-white shadow-lg shadow-slate-300 text-center flex justify-center items-center ">
           <img src={react} alt="react_native" className="" />
